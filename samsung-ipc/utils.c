@@ -22,6 +22,7 @@
 #include <stdint.h>
 #include <unistd.h>
 #include <string.h>
+#include <unistd.h>
 #include <fcntl.h>
 #include <ctype.h>
 #include <sys/ioctl.h>

@@ -25,8 +25,10 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <string.h>
+#include <unistd.h>
 #include <fcntl.h>
 #include <sys/ioctl.h>
+#include <sys/select.h>
 
 #include <samsung-ipc.h>
 #include <ipc.h>

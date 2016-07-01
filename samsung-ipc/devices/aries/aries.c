@@ -26,9 +26,11 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <string.h>
+#include <unistd.h>
 #include <fcntl.h>
 #include <sys/ioctl.h>
 #include <sys/mman.h>
+#include <sys/select.h>
 #include <net/if.h>
 
 #include <samsung-ipc.h>
