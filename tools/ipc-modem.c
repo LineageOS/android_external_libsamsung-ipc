@@ -3,6 +3,7 @@
  *
  * Copyright (C) 2011 Simon Busch <morphis@gravedo.de>
  * Copyright (C) 2011 Paul Kocialkowsk <contact@paulk.fr>
+ * Copyright (C) 2017 The LineageOS Project
  *
  * libsamsung-ipc is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,6 +18,8 @@
  * You should have received a copy of the GNU General Public License
  * along with libsamsung-ipc.  If not, see <http://www.gnu.org/licenses/>.
  */
+
+#define LOG_TAG "ipc-modem"
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -33,6 +36,10 @@
 #include <getopt.h>
 
 #include <samsung-ipc.h>
+
+#include <log/log.h>
+
+#define printf RLOGI
 
 #define MODEM_STATE_LPM     0
 #define MODEM_STATE_NORMAL  2

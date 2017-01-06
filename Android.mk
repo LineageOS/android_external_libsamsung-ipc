@@ -98,7 +98,7 @@ LOCAL_SRC_FILES := tools/ipc-modem.c
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include
 
 LOCAL_STATIC_LIBRARIES := libsamsung-ipc
-LOCAL_SHARED_LIBRARIES := libutils libcrypto
+LOCAL_SHARED_LIBRARIES := libutils libcrypto liblog
 
 LOCAL_MODULE := ipc-modem
 LOCAL_MODULE_TAGS := optional
